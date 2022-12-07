@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sps-robotics/static/css/main.20b4d32c.css",
+    "main.js": "/sps-robotics/static/js/main.5c727d09.js",
+    "index.html": "/sps-robotics/index.html",
+    "main.20b4d32c.css.map": "/sps-robotics/static/css/main.20b4d32c.css.map",
+    "main.5c727d09.js.map": "/sps-robotics/static/js/main.5c727d09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b4d32c.css",
+    "static/js/main.5c727d09.js"
+  ]
+}
