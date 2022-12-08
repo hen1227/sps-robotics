@@ -1,28 +1,36 @@
-.Header {
+#Navbar {
     background-color: #121517;
     width: 100%;
     max-height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-size: calc(10px + 2vmin);
-    gap: 50px;
+    gap: 50px
 }
-.Header a {
+#Navbar a {
     text-decoration: none;
     height: 100%;
 }
-.Header a:hover{
+#Navbar a {
+    
+}
+
+#Navbar a:hover{
     /*text-decoration: underline;*/
     border-bottom-color: white;
     border-bottom-width: 4px;
     border-bottom-style: solid;
 }
-.Header a * {
+
+#Navbar a {
     height: 100%;
+    
 }
 
-.Header h1 {
+#Navbar a#SPS {
+    font-size: 2em;
     color: red;
     text-shadow: 1px 2px white;
+    margin-left: 50px;
 }
