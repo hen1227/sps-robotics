@@ -8,24 +8,19 @@
     font-size: calc(10px + 2vmin);
     gap: 50px
 }
+
 #Navbar a {
+    color: #fff;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    height: 100%;
+    height: 10vh;
 }
-#Navbar a {
-    
-}
-
-#Navbar a:hover{
-    /*text-decoration: underline;*/
-    border-bottom-color: white;
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-}
-
-#Navbar a {
-    height: 100%;
-    
+  
+#Navbar a:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+    height: calc(10vh - 4px);
 }
 
 #Navbar a#SPS {
