@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sps-robotics/static/css/main.20b4d32c.css",
-    "main.js": "/sps-robotics/static/js/main.5c727d09.js",
-    "index.html": "/sps-robotics/index.html",
-    "main.20b4d32c.css.map": "/sps-robotics/static/css/main.20b4d32c.css.map",
-    "main.5c727d09.js.map": "/sps-robotics/static/js/main.5c727d09.js.map"
+    "main.css": "/website/static/css/main.bdeb8bfd.css",
+    "main.js": "/website/static/js/main.23110bea.js",
+    "index.html": "/website/index.html",
+    "main.bdeb8bfd.css.map": "/website/static/css/main.bdeb8bfd.css.map",
+    "main.23110bea.js.map": "/website/static/js/main.23110bea.js.map"
   },
   "entrypoints": [
-    "static/css/main.20b4d32c.css",
-    "static/js/main.5c727d09.js"
+    "static/css/main.bdeb8bfd.css",
+    "static/js/main.23110bea.js"
   ]
 }
