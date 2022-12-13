@@ -4,7 +4,7 @@ function Navbar(props) {
 
     const scrollToPage = (n) =>{
         const pages = document.getElementById('Pages');
-        pages.scroll({ left:n*window.outerWidth, behavior: "smooth"})
+        pages.scroll({ left:n*window.innerWidth, behavior: "smooth"})
     }
     return (
         <div id="Navbar">
