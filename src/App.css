@@ -7,5 +7,44 @@ body {
 }
 
 .App {
+  overflow: auto;
+  scroll-direction: horizontal;
+  scroll-behavior: smooth;
   text-align: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.App > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: auto;
+
+  margin: 0;
+  padding: 0;
+}
+.App > ul > li{
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  /*width: 400px;*/
+  /*padding-left: 200px;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+}
+
+.Page {
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  /*margin: 0;*/
+  /*padding: 0;*/
 }

@@ -16,7 +16,7 @@
     text-decoration: none;
     height: 10vh;
 }
-  
+
 #Navbar a:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
@@ -31,5 +31,5 @@
 }
 
 #Navbar a:hover#SPS {
-    border-bottom: 4px solid red;
+    border-bottom: 6px solid red;
 }
