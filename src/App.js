@@ -3,7 +3,6 @@ import Home from './home/Home'
 import Members from './members/Members'
 import {Component, createRef, useEffect, useState} from "react";
 import Navbar from "./navbar/Navbar";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 class App extends Component {
@@ -24,32 +23,28 @@ class App extends Component {
     render() {
         return (
             <>
-                {/*<div onClick={e => this.scrollToPage(0)}>Page1</div>*/}
-                {/*<div onClick={e => this.scrollToPage(1)}>Page2</div>*/}
-                {/*<div onClick={e => this.scrollToPage(2)}>Page3</div>*/}
-
                 <Navbar/>
                 <div className="App">
                     <ul id={"Pages"} ref={this.pageRef}>
                         <li>
-                            <div className="Page" style={{background: "blue"}}>
+                            <div className="Page" style={{background: "rgb(40,0,0)"}}>
                                 Hello world
                             </div>
                         </li>
                         <li>
-                            <div className="Page" style={{background: "red"}}>
+                            <div className="Page" style={{background: "rgb(0,0,40)"}}>
                                 Also hello
                             </div>
                         </li>
                         <li>
-                            <div className="Page" style={{background: "blue"}}>
-                                Hello world
+                            <div className="Page" style={{background: "rgb(0,20,0)"}}>
+                                2023 Season
                             </div>
                         </li>
                         <li>
 
-                            <div className="Page" style={{background: "red"}}>
-                                Also hello
+                            <div className="Page" style={{background: "rgb(0,40,40)"}}>
+                                Another page
                             </div>
                         </li>
                     </ul>
